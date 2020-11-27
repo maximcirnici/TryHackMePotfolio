@@ -1,0 +1,21 @@
+//Task2: The basics
+#Connecteren via SSH
+ssh garry@<IP-adress>
+
+#changing user
+ su - <user>
+
+#Locating where cron jobs are created (crontab)
+ crontab -l
+
+#Find and retrieve flag 5.
+find / -name flag5* | grep "flag5"
+
+
+
+
+
+
+
+
+
